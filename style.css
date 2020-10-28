@@ -118,15 +118,16 @@ li a {
 
 .dropdown-menu li {
     display: block;
+
 }
 
 .big-dropdown {
-    left: -300px;
+    left: -350px;
 }
 
 .dropdown-funzionalita {
     display: flex;
-    width: 900px;
+    width: 1000px;
 
 }
 .dropdown-funzionalita a{
@@ -152,10 +153,26 @@ li a {
 .funzionalita-list {
     display: inline-block;
     padding: 20px;
+    margin-right: 25px;
+
 }
 
 .father-submenu-funzionalita {
     position: relative;
+}
+
+.coming-soon {
+    color: rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.coming-soon::after {
+    content: "PROSSIMAMENTE";
+    font-size: 10px;
+    color: #5b9af2;
+    position: absolute;
+    top: -5px;
+
 }
 
 .active {
