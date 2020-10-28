@@ -5,6 +5,8 @@
     font-family: 'Lato', sans-serif;
 }
 
+
+
 a {
     text-decoration: none;
     display: inline-block;
@@ -64,6 +66,7 @@ header {
 
 li {
     display: inline-block;
+
 }
 
 li a {
@@ -98,4 +101,63 @@ li a {
 
 #sign-up:hover {
     opacity: 0.7;
+}
+
+
+
+
+.dropdown-menu {
+    position: absolute;
+    -webkit-box-shadow: 4px 9px 30px 0px rgba(107, 107, 107, 0.35);
+    -moz-box-shadow:    4px 9px 30px 0px rgba(107, 107, 107, 0.35);
+    box-shadow:         4px 9px 30px 0px rgba(107, 107, 107, 0.35);
+    border-radius: 10px;
+    display: none;
+
+}
+
+.dropdown-menu li {
+    display: block;
+}
+
+.big-dropdown {
+    left: -300px;
+}
+
+.dropdown-funzionalita {
+    display: flex;
+    width: 900px;
+
+}
+.dropdown-funzionalita a{
+    padding: 20px 0;
+}
+
+.fa-university, .fa-wallet, .fa-exchange-alt, .fa-star{
+    background-color: #ced5db;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+
+}
+
+.funzionalita-title     {
+    color: #ced5db;
+    text-transform: uppercase;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.funzionalita-list {
+    display: inline-block;
+    padding: 20px;
+}
+
+.father-submenu-funzionalita {
+    position: relative;
+}
+
+.active {
+    display: block;
 }
